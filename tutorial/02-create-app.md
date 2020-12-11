@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 003d7f382a0c950d31bb84176feb1e83fbd5cf19
-ms.sourcegitcommit: 57a5c2e1a562d8af092a3e78786d711ce1e8f9cb
+ms.openlocfilehash: 17c93f353c84ea2db28cd2e0203d30c5f320e36e
+ms.sourcegitcommit: 141fe5c30dea84029ef61cf82558c35f2a744b65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48822620"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655233"
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
@@ -101,7 +101,7 @@ Außerdem erstellen Sie eine einfache JavaScript-Anwendung für einzelne Seiten 
 1. Ändern Sie das aktuelle Verzeichnis in ihrer CLI in das **Testclient** -Verzeichnis, und führen Sie den folgenden Befehl aus, um einen HTTP-Server zu starten.
 
     ```Shell
-    dotnet serve -h "Cache-Control: no-cache, no-store, must-revalidate"
+    dotnet serve -h "Cache-Control: no-cache, no-store, must-revalidate" -p 8080
     ```
 
 1. Öffnen Sie Ihren Browser und navigieren Sie zu `http://localhost:8080`. Die Seite sollte gerendert werden, aber keine der Schaltflächen funktioniert derzeit.

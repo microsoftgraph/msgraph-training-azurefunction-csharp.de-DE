@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f55eecd4d157c945d0e95870d4e481653b26c9ec
-ms.sourcegitcommit: 57a5c2e1a562d8af092a3e78786d711ce1e8f9cb
+ms.openlocfilehash: eb227079656e2a57550511c3abfacb49935fe46a
+ms.sourcegitcommit: 141fe5c30dea84029ef61cf82558c35f2a744b65
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "48822593"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "49655240"
 ---
 <!-- markdownlint-disable MD002 MD041 -->
 
@@ -48,7 +48,7 @@ Nehmen Sie sich einen Moment Zeit, um zu prüfen, was der Code in **ClientCreden
 
 1. Ersetzen Sie die vorhandene `GetAppGraphClient`-Funktion durch Folgendes.
 
-    :::code language="csharp" source="../demo/GraphTutorial/Services/GraphClientService.cs" id="AppGraphClientMembers":::
+    :::code language="csharp" source="../demo/GraphTutorial/Services/GraphClientService.cs" id="AppGraphClientFunctions":::
 
 ## <a name="implement-notify-function"></a>Implementieren der Notify-Funktion
 
